@@ -5,6 +5,12 @@
       /* outline: 2px solid red;   */
 }
 
+
+body {
+    background: #191E2E;
+    font-family: 'Qanelas', sans-serif;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -13,14 +19,9 @@ header {
     margin: 20px 243px 0px 245px;
 }
 
-   .mobile {
+   .mobile-header {
     display: none;
    }
-
-body {
-    background: #191E2E;
-    font-family: 'Qanelas', sans-serif;
-}
 
 .header-logo {
    width: calc(2.18vw + 87px);
@@ -93,7 +94,7 @@ a:hover {
         display: none;
     }
 
-    .mobile {
+    .mobile-header {
        display: flex;
        width: 28px;
        height: 27px;
@@ -106,7 +107,7 @@ a:hover {
 
     section {
      margin-right: 1px !important;
-     padding-left: 533px;
+     padding-left: 525px;
      padding-right: 213px;
  }
     

@@ -181,7 +181,7 @@ a:hover {
         margin-right: 29px;
 } 
 
-.video-announcement {
+.video {
      margin-right: 29px;
      width: 1334px !important;
 }
@@ -209,7 +209,7 @@ a:hover {
 
 .assessment {
     gap: calc(0.31vw + 3px) !important;
-    margin-right: 30px !important;
+    margin-right: 100px !important;
 }
 
 .like img {
@@ -228,6 +228,10 @@ a:hover {
 
 .dont_like span {
     font-size: calc(0.46vw + 7.5px) !important;
+}
+
+.splide {
+    margin-top: calc(1.95vw + 11.75px);
 }
 
 
@@ -427,7 +431,7 @@ a:hover {
         margin-left: 85px
      }
      
-     .video-announcement {
+     .video {
       width: 100% !important;
 }
 
@@ -441,7 +445,7 @@ a:hover {
 
 }
 
-.video-announcement {
+.video {
     width: 100%;
     border-radius: 12px;
 }
@@ -516,3 +520,13 @@ a:hover {
     font-size: 15px;
     color: #FFFFFF;
 }
+
+
+.splide__track {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+
